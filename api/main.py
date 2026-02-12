@@ -12,7 +12,7 @@ from pathlib import Path
 # Add parent directory to path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from app.inference import CIFAR10Predictor
+from app.main import CIFAR10Predictor
 from app.utils import CIFAR10_CLASSES
 
 

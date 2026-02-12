@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
-from model_loader import model, CLASS_NAMES
-from utils import preprocess_image
+from .model_loader import model, CLASS_NAMES
+from .utils import preprocess_image
 from PIL import Image
 import numpy as np
 import logging

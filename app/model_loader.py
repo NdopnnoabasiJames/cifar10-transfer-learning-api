@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-MODEL_PATH = "models/mobilenet_cifar.keras"
+MODEL_PATH = "models/cifar10_mobilenet_feature_extractor.keras"
 
 model = tf.keras.models.load_model(MODEL_PATH)
 
